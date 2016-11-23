@@ -1,0 +1,51 @@
+*{
+  margin:0;
+  padding:0;
+}
+#modal{
+  display: none;
+  width:100%;
+  height:100vh;
+  position: fixed;
+  top:0;
+  background-color: rgba(0,0,0,0.7);
+  font-family: 'Roboto', sans-serif;
+}
+#ventana{
+  width:500px;
+  height:500px;
+  background-color: white;
+  position: absolute;
+  border:1px solid #dddddd;
+  left:0;
+  right:0;
+  z-index: 2;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 50px;
+  padding:20px;
+  box-sizing: border-box;
+  position: relative;
+
+}
+#ventana hr{
+  border:1px solid #dddddd;
+}
+#ventana img{
+  width:100%;
+  border:1px solid #dddddd;
+  padding:10px;
+  box-sizing: border-box;
+}
+.btn-cerrar{
+  outline:none;
+  color:red;
+  font-size: 20px;
+  padding:10px;
+  cursor: pointer;
+  position: absolute;
+  top:0;
+  border:1px solid transparent;
+  background-color: transparent;
+  right:0;
+}
